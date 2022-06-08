@@ -1,0 +1,68 @@
+.home_image {
+    padding-top: 50%;
+    margin-bottom: -150px;
+    background: url(https://images.unsplash.com/photo-1522780550166-284a0288c8df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YW1hem9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=3000) no-repeat center center/cover;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    z-index: -1;
+}
+
+/* PRODUCT */
+.home_card_title {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+    font-size: 14px;
+}
+
+.home_card_price {
+    margin-bottom: 5px !important;
+}
+
+.home_card_img {
+    margin: 10px 0;
+    width: 100%;
+    min-height: 300px;
+    max-height: 300px;
+}
+
+.rated {
+    color: rgba(172, 172, 0, 0.5);
+}
+
+/* PC */
+@media (min-width: 64em) {}
+
+/* IPAD Pro */
+@media (max-width: 64em) {}
+
+/* TABLET & MOBILE */
+@media (max-width: 63.9375em) {}
+
+/* TABLET */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {}
+
+/* MOBILE */
+@media (max-width: 46.25em) {
+    .col_sm_12 {
+        width: 100% !important;
+    }
+
+    .w_sm_100 {
+        width: 100% !important;
+    }
+
+    .mr_0 {
+        margin: 0 !important;
+    }
+
+    .mb_sm_3 {
+        margin-bottom: 6px !important;
+    }
+
+    .home_image {
+        margin-bottom: -60px !important;
+    }
+}

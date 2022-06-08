@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
+.bdtr-bdbr-0px {
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cr-pointer {
+    cursor: pointer !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.op-08 {
+    transition: all 0.3s;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.op-08:hover {
+    opacity: 0.8 !important;
 }
 
-.App-link {
-  color: #61dafb;
+.kep-login-facebook {
+    font-weight: bold !important;
+    font-size: 1rem !important;
+    text-transform: capitalize !important;
+    padding: calc(.34435vw + 4.38843px) calc(.34435vw + 18.38843px) !important;
+    width: 100% !important;
+    margin-top: 6px !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fa-brands.fa-facebook {
+    margin-right: 8px !important;
 }
+
+/* PC */
+@media (min-width: 64em) {
+    .app {
+        overflow: hidden;
+    }
+}
+
+/* IPAD Pro */
+@media (max-width: 64em) {}
+
+/* TABLET & MOBILE */
+@media (max-width: 63.9375em) {}
+
+/* TABLET */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {}
+
+/* MOBILE */
+@media (max-width: 46.25em) {}
